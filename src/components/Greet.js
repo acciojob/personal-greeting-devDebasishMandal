@@ -16,7 +16,8 @@ const Greet=()=>{
         <form>
         <input type="text" onChange={handleInput}></input>
         </form>
-        <p>{name}</p>
+        {name!=""?<p>Hello {name}!</p>:""}
+        
 
     </div>
         
