@@ -9,14 +9,12 @@ const Greet=()=>{
      setName(e.target.value);
   }
 
-
+  
 
     return(<div>
-        {name!=""?<p>Enter your name:Hello {name}!</p>:""}
-        <form>
+        <p>Enter your name:</p>
         <input type="text" onChange={handleInput}></input>
-        </form>
-        
+        {name!=""?<p>Hello {name}!</p>:""}
         
 
     </div>
