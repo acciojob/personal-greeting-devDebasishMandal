@@ -12,7 +12,7 @@ const Greet=()=>{
 
 
     return(<div>
-        <p>Enter your name :</p>
+        <p>Enter your name:</p>
         <form>
         <input type="text" onChange={handleInput}></input>
         </form>
