@@ -12,11 +12,11 @@ const Greet=()=>{
 
 
     return(<div>
-        <p>Enter your name:</p>
+        {name!=""?<p>Enter your name:Hello {name}!</p>:""}
         <form>
         <input type="text" onChange={handleInput}></input>
         </form>
-        {name!=""?<p>Hello {name}!</p>:""}
+        
         
 
     </div>
